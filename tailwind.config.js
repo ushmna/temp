@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       height: {
         '600': '37.5rem',
+      },
+      colors:{
+        textColor: "#5D36FD"
       }
     },
   },
