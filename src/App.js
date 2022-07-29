@@ -1,17 +1,16 @@
 import "./App.css";
 import SideNavbar from "./Components/SideNavbar";
+import TopGrid from "./Components/TopGrid";
+import BottomGrid from "./Components/BottomGrid";
+import Dashboard from "./Pages/Dashboard";
 
 function App() {
   return (
-    <div className="w-full flex">
-      <SideNavbar/>
-      <div className="bg-red-200 w-full flex">
-        
-        <div className="bg-yellow-200 w-full bg-textColor">1</div>
-        <div className="bg-green-200 w-full">2</div>
+    <div className="">
+      <Dashboard/>
+    
       </div>
- 
-    </div>
+    
   );
 }
 

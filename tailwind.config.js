@@ -8,9 +8,14 @@ module.exports = {
       height: {
         '600': '37.5rem',
       },
+      width: {
+        '600': '47.5rem'
+      },
       colors:{
-        textColor: "#5D36FD"
+        textColor: "#5D36FD",
+        
       }
+      
     },
   },
   plugins: [],
